@@ -1,0 +1,188 @@
+:root {
+            --primary-blue: #09287a;
+            --light-blue: #e6f0fa;
+            --white: #ffffff;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+        }
+
+        body {
+            background-color: var(--white);
+            color: #333;
+            line-height: 1.6;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        header {
+            /* background: var(--primary-blue); */
+            color: var(--primary-blue);
+            padding: 1.5rem;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 1.8rem;
+
+        }
+
+        header .slogan {
+            font-size: 1rem;
+            font-weight: 600;
+            /* color: #0056b3; */
+
+        }
+.slider-images > img {
+    max-width: 600px;
+    display: block;
+    margin: 10px auto;
+
+}
+        section {
+            padding: 2rem 1rem;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        .about,
+        .services,
+        .contact {
+            margin-bottom: 2rem;
+        }
+
+        .about {
+            padding: 2rem 1rem;
+            max-width: 1000px;
+            margin: auto;
+            line-height: 1.6;
+        }
+
+        .about p {
+            text-align: justify;
+            margin-bottom: 1rem;
+        }
+
+        h2 {
+            color: var(--primary-blue);
+            margin-bottom: 0.2rem;
+            font-size: 1.7rem;
+        }
+
+
+        ul {
+            list-style: none;
+            padding-left: 1rem;
+        }
+
+        ul li {
+            margin-bottom: 0.5rem;
+            padding-left: 0.5rem;
+            border-left: 3px solid var(--light-blue);
+        }
+
+        footer {
+            background: var(--light-blue);
+            text-align: center;
+            padding: 1rem;
+            font-size: 0.9rem;
+        }
+
+        .img-primary {
+            max-width: 520px;
+            display: block;
+            margin: 1rem auto;
+        }
+
+        .img-secondary {
+            width: 200px;
+            display: block;
+            margin: 1rem auto;
+        }
+
+        /* Responsive tweaks */
+        @media (min-width: 600px) {
+            header h1 {
+                font-size: 2.2rem;
+            }
+
+            section {
+                padding: 3rem;
+            }
+        }
+
+        .services {
+            padding: 2rem 1rem;
+            max-width: 1000px;
+            margin: auto;
+            line-height: 1.6;
+        }
+
+        .section-title {
+            color: #0056b3;
+            font-size: 1.8rem;
+            margin-bottom: 1.1rem;
+            text-align: center;
+        }
+
+        .service-item {
+            margin-bottom: 1rem;
+
+        }
+
+        .service-item h2 {
+            color: #0056b3;
+            font-size: 1.3rem;
+
+            display: flex;
+            align-items: center;
+        }
+
+        .service-item h2 i {
+            margin-right: 8px;
+            color: #0056b3;
+        }
+
+        .service-item p {
+            font-size: 1rem;
+            color: #333;
+            padding: 0 1rem;
+            text-align: justify;
+        }
+
+        .notice {
+            background-color: var(--light-blue);
+            border-left: 6px solid var(--primary-blue);
+            padding: 1.5rem;
+            margin: 2rem auto;
+            max-width: 1000px;
+            text-align: center;
+            border-radius: 4px;
+        }
+
+        .notice h2 {
+            color: var(--primary-blue);
+            font-size: 1.4rem;
+            margin-bottom: 0.75rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .notice h2 i {
+            margin-right: 8px;
+            color: var(--primary-blue);
+        }
+
+        .notice p {
+            font-size: 1rem;
+            color: var(--text-dark);
+            max-width: 800px;
+            margin: 0 auto;
+        }
